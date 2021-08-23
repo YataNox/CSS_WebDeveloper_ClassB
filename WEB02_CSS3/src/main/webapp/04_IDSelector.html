@@ -29,6 +29,37 @@
 			자동으로 지정하여 가운데 맞춤을 하란 의미입니다.
 			*/
 			
+			#wrap
+			{
+				width: 800px; height: 200px; margin: 0 auto; 
+				color: white; border: 5px solid black;
+				overflow:hidden;
+				/* overflow:hidden; : 안 쪽 내용물이 가로: 800px 세로 200px 경계선을 넘어갈 정도로
+				크기가 크다면 바깥쪽으로 빠져나가는 부분을 화면에서 보이지 않게 함 */
+			}
+			/* border-width: 5px;
+			border-style: solid;
+			border-color:blue;
+			border: 5px solid blue : wrap이라는 div에 외곽선을 5px 실선 파란색으로 표시 
+			color 스타일은 현재 태그의 하위 태그에도 적용됩니다.
+			*/
+			#aside
+			{
+				width: 200px; height: 300px; background:blue; float: left;
+			}
+			#contents
+			{
+				width: 600px; height: 300px; background:green; float: left;
+				/* float : left; - block 형식을 갖고 사용되면 바로 줄바꿈이 일어나는 div에 줄바꿈없이
+				왼쪽으로 차곡차곡 쌓이는 배치를 하라는 속성 */
+			} 
+			#footer
+			{
+				width : 800px; 
+				height: 100px; 
+				background:silver; 
+				margin: 0 auto;
+			}
 		</style>
 	</head>
 	
