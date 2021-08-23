@@ -17,6 +17,12 @@
 			
 			#box1:active{background:blue; height:150px;}
 			#box2:active{background:red; height:150px;}
+			
+			/* 하나의 반응 선택자가 변경하는 사항을 다른 선택자에 적용하려면 자신의 형제나
+			후손 선택자에게만 적용이 가능합니다. 자신의 부모나 부모의 형제 또는 부모의 형제의 자손
+			등은 적용할 수 없습니다. 그들에게 적용하려면 자바스크립트 또는 제이쿼리를 사용해야 합니다. */
+			#box1:active+ #box2{background:green; color: whilte;}
+			
 		</style>
 	</head>
 	<body>
