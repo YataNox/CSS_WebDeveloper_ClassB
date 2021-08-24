@@ -24,10 +24,13 @@
 				/* div에 display:inline가 적용되면 width, height가 적용되지 않고
 				span 처럼 작동합니다. */
 			}
-			/* display : block은 원래 div가 block이므로 변화가 없음 현재 예제에서는 표시 생략 */
 			#box3{
 				display:inline-block;
 				/* inline에서 width, height만 살려내어 표시합니다. */
+			}
+			#box4{
+				display:block;
+				/* display : block은 원래 div가 block이므로 변화가 없음 */
 			}
 		</style>
 	</head>
@@ -48,6 +51,13 @@
 		
 		<span>Dummy</span>
 		<div id = "box3" class="box">
+			<span>교육의 자주성●전문성.정치적 중립성 및 대학의 자율성은 법률이 정하는 바</span>
+		</div>
+		<span>Dummy</span>
+		<br> <br>
+		
+		<span>Dummy</span>
+		<div id = "box4" class="box">
 			<span>교육의 자주성●전문성.정치적 중립성 및 대학의 자율성은 법률이 정하는 바</span>
 		</div>
 		<span>Dummy</span>
