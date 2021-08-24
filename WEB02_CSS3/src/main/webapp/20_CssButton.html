@@ -3,8 +3,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>20_CssButton</title>
+		<style type="text/css">
+			.button{
+				width:150px;
+				height:70px;
+				background:#FF6A00;
+				border:10px solid white;
+				box-shadow: 5px 5px 5px #555555;
+				/* box-shadow 오른쪽 아래로 5px번짐 5px 정도의 그림자를 회색계열로 표시 */
+				text-align:center;
+				/* text-align:center -> 텍스트의 정렬(가운데) */
+				line-height:70px;
+				/* 줄간격 70이며, 여러줄일 때 줄과 줄사이 간격을 나타냅니다. 다만 한 줄의 텍스트에서
+				div 세로 크기와 같은 크기를 지정하면, 상하 가운데 맞춤이 됩니다. */
+			}
+		
+		</style>
 	</head>
 	<body>
-		
+		<!-- css로 버튼 생성 -->
+		<div class="button"><a href="#">Click</a></div>
 	</body>
 </html>
