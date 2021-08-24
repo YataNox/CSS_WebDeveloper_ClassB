@@ -26,8 +26,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>18_Position</title>
+		<style type="text/css">
+			.box1{
+				width : 100px; background:blue; padding: 20px; color : white;
+				font-weight: bold; float:left;
+			}
+			/* staic : 별도의 position 속성 지정 없이 사용하면 상대적 위치 및 staitc으로 인식되어 사용됩니다. */
+			/* font-weight : 글자의 굵기, 다음 에제에서 자세히 학습합니다. */
+			.box2{
+				width : 300px; background:red; padding: 20px; color : white;
+				font-weight: bold; float:left; /* left : -20px; top:30px; */
+				/* static 은 left로 조정이 되지 않습니다. */
+			}
+			
+		</style>
 	</head>
 	<body>
-		
+		<h1>상대적 위치 좌표 - static</h1>
+		<div class ="box1" >박스1</div>
+		<div class ="box2" >박스2</div>
 	</body>
 </html>
