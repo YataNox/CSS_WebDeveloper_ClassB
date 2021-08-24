@@ -27,13 +27,15 @@
 		<meta charset="UTF-8">
 		<title>18_Position</title>
 		<style type="text/css">
-			.box1{
+			.box1
+			{
 				width : 100px; background:blue; padding: 20px; color : white;
 				font-weight: bold; float:left;
 			}
 			/* staic : 별도의 position 속성 지정 없이 사용하면 상대적 위치 및 staitc으로 인식되어 사용됩니다. */
 			/* font-weight : 글자의 굵기, 다음 에제에서 자세히 학습합니다. */
-			.box2{
+			.box2
+			{
 				width : 300px; background:red; padding: 20px; color : white;
 				font-weight: bold; float:left; /* left : -20px; top:30px; */
 				/* static 은 left로 조정이 되지 않습니다. */
@@ -44,18 +46,25 @@
 			{
 				clear:both; height:50px;
 			}
-			
-			.box3{
+			.box3
+			{
 				width : 100px; background:yellow; padding: 20px; float:left;
 			}
-			.box4{
+			.box4
+			{
 				width : 300px; background:green; padding: 20px; color : white;
 				float: left; font-weight: bold; position : relative; left : -50px; top:30px;
 			}
-			#wrap{position:relative; width:300px; height:300px; border:1px solid black;
+			
+			#wrap
+			{
+				position:relative; width:300px; height:300px; border:1px solid black;
 				background:white; overflow:hidden;/* absolute를 감싸는 div는 relative로 지정합니다. */
 			}
-			.box5{position : absolute; width:50px; height:50px;}
+			.box5
+			{
+				position : absolute; width:50px; height:50px;
+			}
 			#abs1{top:0px; left:0px; background:red;}
 			#abs2{top:0px; left:50px; background:blue;}
 			#abs3{top:0px; left:100px; background:red;}
