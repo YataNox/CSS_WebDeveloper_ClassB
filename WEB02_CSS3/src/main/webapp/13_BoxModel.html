@@ -9,6 +9,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Box Model</title>
+		<style type="text/css">
+			.box{width : 170px; height:100px; border:10px solid blue;
+				margin-bottom:30px; padding-left:30px; padding-top:30px;
+			}
+			/* padding 값은 전체 크기에 합산됩니다. 따라서 .box의 실제 크기는 너비+선+패딩
+			width:220px; height:150px로 봐야합니다. */
+		</style>
 	</head>
 	<body>
 		<div class="box">박스 모델1</div>
