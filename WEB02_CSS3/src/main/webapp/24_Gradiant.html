@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<!-- * 그레디언트(gradient)
-	- 2가지 이상의 색상을 혼합한 색을 만들어 채색하는 기능.
-	- https://www.colorzilla.com/gradient-editor -->
+<!-- 
+	* 그레디언트(gradient)
+		- 2가지 이상의 색상을 혼합한 색을 만들어 채색하는 기능.
+		- https://www.colorzilla.com/gradient-editor 
+-->
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -10,11 +12,16 @@
 			.gradient{
 				height:90px; line-height:90px; 
 				text-align:center; border:1px solid black;
-				font-size:200%; font-weight:bold;
+				font-size:200%; font-weight:bold; width:600px;
+				background: #b3dced;
+				background: -moz-linear-gradient(left, #b3dced 0%, #bce0ee 23%, #bce0ee 23%, #d1b1e0 28%, #d1b1e0 41%, #b2209c 58%, #b2209c 58%, #d1b1e0 74%, #b2209c 83%, #b2209c 83%, #d1b1e0 89%);
+				background: -webkit-linear-gradient(left, #b3dced 0%,#bce0ee 23%,#bce0ee 23%,#d1b1e0 28%,#d1b1e0 41%,#b2209c 58%,#b2209c 58%,#d1b1e0 74%,#b2209c 83%,#b2209c 83%,#d1b1e0 89%);
+				background: linear-gradient(to right, #b3dced 0%,#bce0ee 23%,#bce0ee 23%,#d1b1e0 28%,#d1b1e0 41%,#b2209c 58%,#b2209c 58%,#d1b1e0 74%,#b2209c 83%,#b2209c 83%,#d1b1e0 89%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#d1b1e0',GradientType=1 );
 			}
 		</style>
-		
 	</head>
+	
 	<body>
 		<div class="gradient">
 			CSS3 Gradient
