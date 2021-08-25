@@ -1,0 +1,15 @@
+
+<!-- 
+	* 그레디언트(gradient)
+		- 2가지 이상의 색상을 혼합한 색을 만들어 채색하는 기능.
+		- https://www.colorzilla.com/gradient-editor 
+-->
+	
+<!-- overview
+	https://docs.oracle.com/javase/8/docs/api/index.html 
+-->
+		
+<!-- 
+	간세네
+	http://guny.kr/stuff/klorem/#/p-html
+ -->
